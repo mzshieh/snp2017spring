@@ -51,7 +51,7 @@ _值_ 為該屬性的值，如：_a_ = _9.8_ 此處 _9.8_ 即為屬性 _a_ 的�
 
 
 ## 利用 c9 架設自己的伺服器
-請先跟本課程登記獲得邀請後註冊 c9，完成後請進入 [c9.io 管理介面](https://c9.io/)  
+請先跟本課程[登記](https://goo.gl/forms/gGBU4VakhcMdlTUA2)獲得邀請後註冊 c9，完成後請進入 [c9.io 管理介面](https://c9.io/)  
 點選灰色的大按鈕 _Create a new workspace_  
 填妥下面的表單建立一個 workspace，其中要留意的有：
 - Workspace name：此為必填欄位
