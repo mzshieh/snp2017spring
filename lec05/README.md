@@ -1,5 +1,7 @@
 ## Lecture 5: Extension
 
+### Upload homeworks to [course studio](https://scratch.mit.edu/studios/2923570/).
+
 ### Review
 +   Task
     +   Draw a snowflake
