@@ -23,4 +23,5 @@
         +   [Instructor's sample project](speech_number.sbx)
     +   Internet
         +   Application: read the G-sensor of your cellphone
+        +   [Example](lec05.sbx)
         +   [Reference](ScratchX-ws/)
