@@ -1,5 +1,7 @@
 ## Lecture 6
 
+### Propose questions in the [Chatroom](https://chatroom-mzshieh.c9users.io/)
+
 ### Introduction to Python
 
 +   What Is (Imperative) Programming?
