@@ -30,6 +30,14 @@
     +   String
         +   Concatenate: `+`
         +   Repeat: `*`
++   Basic functions
+    +   `print()`
+    +   `input()`
+    +   `len()`
+    +   `str()`
+    +   `int()`
+    +   `float()`
+    +   `eval()`
 
 ### Task 0
 
