@@ -53,7 +53,7 @@
     +   Press enter (Click it?)
     +   Wait until Microsoft Paint is opened
     +   Hold windows key, then press up (Maximize)
-+   Sample code
++   [Sample code](lec07-1.py)
 +   If the task is not a provided function, then you have to program.
 +   Decompose the task into instructions supported by the system environment.
 
