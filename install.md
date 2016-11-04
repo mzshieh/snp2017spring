@@ -59,7 +59,7 @@ brew install python3
 首先升級 pip
 
 ```
-Windows: pythom -m pip install --upgrade pip
+Windows: python -m pip install --upgrade pip
 Mac OS X or Linux: pip3 install --upgrade pip
 ```
 
