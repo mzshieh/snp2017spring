@@ -8,7 +8,7 @@
     +   [Tutorial](../install.md)
 +   Did all of you finish task 1 and task 2?
     +   Save the result as a file
-    +   Upload to E3(https://e3.nctu.edu.tw/)
+    +   Upload to E3(http://e3.nctu.edu.tw/)
 +   Wait is important
     +   You have to wait until the precondition of the next instruction is ready for use.
         +   It takes time to open `mspaint`.
