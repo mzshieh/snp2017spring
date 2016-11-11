@@ -15,7 +15,7 @@
     +   Precondition and initialization
         +   Instant noodle
             +   What if you didn't boil the water?
-        +   Scramble eggs
+        +   Scrambled eggs
             +   What if you didn't scramble?
         +   Even experienced programmer may forget to initialize!
             +   The instructor forgot to fill hot water into the instant noodle cup.
