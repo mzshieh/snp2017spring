@@ -92,8 +92,10 @@
 +   `def your_function_with_parameter(parameter)`
     +   Argument
 +   `def your_function_with_parameters(parameter1, parameter2)`
-    +   [Example](lec10-3.py)
-    +   Task: modify the above example to draw a tree like [this](https://scratch.mit.edu/projects/115838437/)
+    +   More arguments
++   Variable length list of arguments
+    +   More flexible
+    +   We will teach you how to declare such functions later.
 +   Keyword argument
     +   `print(some_str, end='')`
     +   `print(some_str_1, some_str_2, sep=',')`
