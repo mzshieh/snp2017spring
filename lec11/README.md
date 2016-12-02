@@ -159,6 +159,7 @@
 
 ### Function definition
 +   `def fn(arg,*arg_list,**arg_dict):`
++   `def fn(arg,*args,**kwargs):`
 +   Unlimited number of positional argument: using list
     +   Use `[]`
 +   Keyword argument: using dictionary!
