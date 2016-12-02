@@ -80,8 +80,86 @@
 +   Implement a two digit version of the game [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)
 +   Use `def`
 
+### Lists and Tuples
+
++   `type()`
++   List
+    +   Empty list: `[]`
+    +   May have elements of different types
+        +   `[12, 3.4, None, True, 'string', print]`
+    +   Access (zero-based) `i`-th element of `list x`: `x[i]`
+        +   try `[123,456][1]`
+        +   try `[12, 3.4, None, True, 'string', print][5]('hello world')`
+        +   try `[123,456][1.0]`
+    +   The elements are mutable (modifiable)
++   Tuple
+    +   Empty tuple: `()`
+    +   Single element tuple: `(element,)`
+        +   try `type(('str'))` and `type(('str',)`
+    +   `(12, 3.4, None, True, 'string', print)`
+    +   The elements are immutable (not modifiable)
++   `list()` and `tuple()`
+    +   Try `list(('a','b','c'))`
+    +   Try `tuple(['d','e','f'])`
+    +   Try `list('hello')`
+    +   Try `tuple('hello')`
++   `append()`
++   `in`
++   `not in`
++   Auto boxing & auto unboxing
+    +   [code](lec11.py)
++   Try to simplify or to accomplish
+    +   Bull and cow: 4-digit version
+    +   Draw a tree: more complicated version
+
 ### Task 8
 
 +   Implement the game [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)
 +   The `i`-th charactor of a string `x`: `x[i]`
     +   Zero base
+
+### More about Lists
+
++   Negative index: `some_list[-1]`
++   Sublists with slices: try `print([0,1,2,3,4][1:3])`
+    +   Inclusive, exclusive
++   Concatenation `+`
++   Replication `*`
++   Delete an element of certain position:`del`
++   `index()`
+    +   try `print([0,1,2,0].index(0))`
++   `insert(pos,val)`: insert `val` to position `pos`
+    +   Let `a = [0,1,2]`. What will happen if we perform `a.insert(1,3)`?
++   `remove(val)`: remove an element of value `val`
+    +   Let `a = [1,0,0,1]`. What will happen if we perform `a.remove(1)`?
++   `sort()`: sort the list ascendingly
+
+### Dictionary
+
++   `list` is indexed by `int`
+    +   From `0` to `len()-1`
++   `instructor = {'Name': 'MZ', 'Height': 178, 'Weight': 108}`
+    +   try `print(instructor['Name'])`
+    +   try `print(instructor['age'])`
++   Dictionary is indexed by keys (words).
+    +   Word: key
+    +   Definition: value
+    +   A set of key-value pairs
++   Empty dictionary: `{}`
++   `keys()`
++   `values()`
++   `items()`
++   `in`
+    +   try `print('MZ' in instructor)`
+    +   try `print('Name' in instructor)`
+    +   try `print(('Name','MZ') in instructor)`
++   `get(key,val)`: If `key` is missing, then return `val`
++   `setdefault(key,val)`: if there is no such `key`, initialize the key-value pair to `(key,val)` and return `val`. Otherwise return the value corresponding `key`.
++   Pretty printing: `pprint`
+
+### Function definition
++   `def fn(arg,*arg_list,**arg_dict):`
++   Unlimited number of positional argument: using list
+    +   Use `[]`
++   Keyword argument: using dictionary!
+    +   Use `get()`
