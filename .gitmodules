@@ -1,0 +1,3 @@
+[submodule "ballfight"]
+	path = ballfight
+	url = https://github.com/sunset1995/ballfight.git
