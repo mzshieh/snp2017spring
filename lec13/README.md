@@ -2,79 +2,6 @@
 
 ### Propose questions in the [Chatroom](https://chatroom-mzshieh.c9users.io/)
 
-### Scratch Project
-
-+   Next week!
-
-### Review
-
-+   `if`, `else`, `elif`
-+   `while`, `for`
-    +   `break`, `continue`
-+   `try`, `except`
-+   [Slide](snp_lec11.pdf)
-
-### Debugger
-
-+   Breakpoint
-+   Go
-+   Step (Into)
-+   (Step) Over
-+   (Step) Out
-+   Quit
-
-### `import`
-
-+   `sys`
-    +   `sys.exit()`
-+   `random`
-    +   `random.random()`
-    +   `random.randint()`
-
-### Function
-
-+   `def your_function()`
-    +   Example:
-        +   Run `mspaint` and maximize the window
-+   `return`
-    +   The function is terminated either by `return` or by the end of the block.
-    +   `None`: if there is no `return` or just `return` nothing
-    +   Example: `pyautogui.size()`
-+   `def your_function_with_parameter(parameter)`
-    +   Argument
-    +   Example: `floor`, `round`
-+   `def your_function_with_parameters(parameter1, parameter2)`
-    +   More arguments
-    +   Example: `pyautogui.moveTo()`
-+   Variable length list of arguments
-    +   More flexible
-    +   We will teach you how to declare such functions later.
-+   Keyword argument
-    +   `print(some_str, end='')`
-    +   `print(some_str_1, some_str_2, sep=',')`
-    +   We will teach you how to declare function with keyword arguments later.
-+   Please do not overwrite the arguments in your function now. We will discuss what will happen if you do so later.
-+   Scope
-    +   Variables are defined by assignment statements
-    +   Global
-        +   Defined in global scope
-        +   `global`
-            +   `global some_var`: `some_var` in this function is the global `some_var`
-            +   You must do this if you're going to write global variables
-    +   Local
-        +   Defined in local scope
-    +   Principles
-        +   Local variables cannot be used globally.
-        +   A local scope cannot access local variables in other scopes.
-        +   A local variable and a global variable may have the same name, but only local variable can be accessed.
-        +   You may still read the global variable correctly if no local variable is using the same name.
-
-### Task 7
-
-+   Guess a secret number from `0` to `9`
-    +   Use `random`
-+   `5` chances
-
 ### Task 8 minus
 
 +   Implement a two digit version of the game [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)
@@ -103,11 +30,10 @@
     +   Try `tuple(['d','e','f'])`
     +   Try `list('hello')`
     +   Try `tuple('hello')`
-+   `append()`
 +   `in`
 +   `not in`
 +   Auto boxing & auto unboxing
-    +   [code](lec11.py)
+    +   [code](lec13-1.py)
 +   Try to simplify or to accomplish
     +   Bull and cow: 4-digit version
     +   Draw a tree: more complicated version
@@ -125,11 +51,13 @@
     +   Inclusive, exclusive
 +   Concatenation `+`
 +   Replication `*`
-+   Delete an element of certain position:`del`
 +   `index()`
     +   try `print([0,1,2,0].index(0))`
 +   `insert(pos,val)`: insert `val` to position `pos`
     +   Let `a = [0,1,2]`. What will happen if we perform `a.insert(1,3)`?
++   `append(val)`
++   `pop()`: remove the last element and return its value
++   `pop(pos)`: remove the elemement of position `pos`
 +   `remove(val)`: remove an element of value `val`
     +   Let `a = [1,0,0,1]`. What will happen if we perform `a.remove(1)`?
 +   `sort()`: sort the list ascendingly
@@ -138,13 +66,13 @@
 
 +   `list` is indexed by `int`
     +   From `0` to `len()-1`
-+   `instructor = {'Name': 'MZ', 'Height': 178, 'Weight': 108}`
-    +   try `print(instructor['Name'])`
-    +   try `print(instructor['age'])`
 +   Dictionary is indexed by keys (words).
     +   Word: key
     +   Definition: value
     +   A set of key-value pairs
++   `instructor = {'Name': 'MZ', 'Height': 178, 'Weight': 108}`
+    +   try `print(instructor['Name'])`
+    +   try `print(instructor['age'])`
 +   Empty dictionary: `{}`
 +   `keys()`
 +   `values()`
@@ -160,7 +88,32 @@
 ### Function definition
 +   `def fn(arg,*arg_list,**arg_dict):`
 +   `def fn(arg,*args,**kwargs):`
+    +   Use `*my_list` to pass a `list`
+    +   Use `*my_dict` to pass a `dict`
 +   Unlimited number of positional argument: using list
     +   Use `[]`
 +   Keyword argument: using dictionary!
     +   Use `get()`
+
+### `pyautogui`: open your eyes!
+
++   [Sample code 1](lec13-2.py)
++   `screenshot()`
++   `pixel()`
+    +   `(R,G,B)`
++   How to take a screen shot
+    +   Windows: print screen key
+        +   Hold alt, then press print screen
+            +   This gives you a picture of window on focus
+        +   Use Microsoft Paint to save the screenshot into png file
++   [Sample code 2](lec13-3.py)
++   `locateOnScreen()`
++   `locateAllOnScreen()`
++   Task: Check all boxes!
+    +   Practice [here](https://goo.gl/forms/dr5mkE7Z9dKiJ3gI3)
++   Task: Make your tree drawing program
+    +   Some complex branches: [code](lec13-4.py)
+    +   More readable: use `def` block
+    +   Less dependent on maximizing window
+        +   Use screen shot and `locateOnScreen`
+        +   Use dictionary to handle the filenames
