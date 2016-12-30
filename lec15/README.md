@@ -94,24 +94,29 @@
 +   Parsing HTML: the real webpages
     +   View source!
 +   [Example code 1](lec15-5.py)
+    +   [HTML](https://mzshieh.github.io/snp2016/html/1.html)
     +   `find(tag)`
         +   Get a `Tag` from the html
         +   Try `type(div)`
 +   [Example code 2](lec15-6.py)
+    +   [HTML](https://mzshieh.github.io/snp2016/html/2.html)
     +   Get information from `Tag`: use `.get`
     +   `.get` is safer than `[]`
 +   [Example code 4](lec15-7.py)
+    +   [HTML](https://mzshieh.github.io/snp2016/html/4.html)
     +   `find_all` returns a list
     +   CSS selector: `select(tag)`
         +   Get all `tag`s
         +   Return a list
 +   [Example code 3](lec15-8.py)
+    +   [HTML](https://mzshieh.github.io/snp2016/html/3.html)
     +   Advanced `find` usage
         +   Accessing attributes
             +   keyword argument
             +   dictionary
     +   Try `soup.select('div.find_by_class')`
 +   [Example code 5](lec15-9.py)
+    +   [HTML](https://mzshieh.github.io/snp2016/html/5.html)
     +   Try to use `select` to replace `find`
 +   Redo Task: open five webpages
     +   Tag: `a`
