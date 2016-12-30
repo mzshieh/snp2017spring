@@ -50,10 +50,7 @@
     +   Binary
         +   Open a file to save it: `the_file = open('a_name.html', 'wb')`
             +   Filename: `a_name`
-            +   Mode: `wb` means "write binary"
-                +   `the_file.write(chunk)`: write a chunk of bytes
-            +   Mode: `wt` means "write text"
-                +   `the_file.write(some_str)`: write a string
+            +   `the_file.write(chunk)`: write a chunk of bytes
         +   `for chunk in result.iter_content(102400):` to iterate 102400-byte chunks of `result`
         +   Remember to close the file: `the_file.close()`
         +   Sample [code](lec15-4.py)
