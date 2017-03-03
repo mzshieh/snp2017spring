@@ -23,7 +23,8 @@
 ## Term Poject
 
 +   Game Design: Using Scratch
-+   Game AI: Ball Fight 3.0
++   Python Game Agent: [Lonely T-Rex](http://www.trex-game.skipser.com/)
++   Python Game Agent: Ball Fight 3.0
 
 ## Grading Policy
 
