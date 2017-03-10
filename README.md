@@ -24,7 +24,7 @@
 
 +   Game Design: Using Scratch
 +   Python Game Agent: [Lonely T-Rex](http://www.trex-game.skipser.com/)
-+   Python Game Agent: Ball Fight 3.0
++   Python Game Agent: [Ball Fight 3.0](https://github.com/sunset1995/ballfight.git) Currently beta
 
 ## Grading Policy
 
