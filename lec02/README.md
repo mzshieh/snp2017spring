@@ -26,7 +26,7 @@
 +   [Step-by-Step Studio](http://scratch.mit.edu/studios/475476)
 +   [10 Blocks Studio](http://scratch.mit.edu/studios/475480)
     +   Task: Create a project using at most 10 blocks.
-    +   Note: There are some project using more than 10 blocks in the 10 blocks studio.
+        +   Note: There are some project using more than 10 blocks in the 10 blocks studio.
     +   Task: Create a project using at most 25 blocks.
 +   My Studio
     +   [Example 1](http://scratch.mit.edu/studios/211580)
