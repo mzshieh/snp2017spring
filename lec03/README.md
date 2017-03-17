@@ -45,7 +45,7 @@
         +   Trigger the actions via broadcast
 +   [Debug it!](https://scratch.mit.edu/studios/475539/)
     +   [Debug 2.1](https://scratch.mit.edu/projects/23266426/): 希望按下 Scratch Cat 後他會隨鼓聲跳舞，但他沒跳，該怎麼辦？
-    +   [Debug 2.2](https://scratch.mit.edu/projects/24268476/): 希望 Nano 被碰到的時候也要說話，該怎麼辦？
+    +   [Debug 2.2](https://scratch.mit.edu/projects/24268476/): 希望 Nano 被碰到的時候， Pico 也要說話，該怎麼辦？
     +   [Debug 2.3](https://scratch.mit.edu/projects/24268506/): 希望畫個笑臉，目前有一些地方多畫了，該怎麼辦？
     +   [Debug 2.4](https://scratch.mit.edu/projects/23267140/): 希望花開完了要停下來，該怎麼辦？
     +   [Debug 2.5](https://scratch.mit.edu/projects/23267245/): 希望生日快樂歌唱完才提示可以吹蠟燭了。
