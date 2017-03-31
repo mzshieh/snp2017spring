@@ -82,7 +82,7 @@ _server.js_ 這支程式仰賴許多 Open Source 的套件，讓我們可以用�
 
 
 ## 網頁讀取重力感應器說明
-請用手機打開 [讀取手機重力感應器的網頁](http://scratchx.nctu.me/static/gsensor.html)  
+請用手機打開 [讀取手機重力感應器的網頁 http://scratchx.nctu.me/static/gsensor.html](http://scratchx.nctu.me/static/gsensor.html) 
 - url 欄位請填你想連線的伺服器  
 - your device name 請填你想取的名字，注意別跟你的 ScratchX 連線時用的撞名咯    
 ![](images/g-1.png)  
