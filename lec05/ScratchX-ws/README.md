@@ -18,7 +18,7 @@ ScratchX websocket extension 可讓 ScratchX 透過 websocket 與伺服器做即
 
 ## ScratchX websocket extension 使用說明
 進入 [ScratchX 官網](http://scratchx.org/) 點選 _Open Extension URL_  
-將 ScratchX websocket extension 網址 `http://sunset1995.github.io/ScratchX-ext/extensions/ws.js` 貼於欄位中，按下 _Open_（如下圖）  
+將 ScratchX websocket extension 網址 `http://scratchx.nctu.me/extensions/ws.js` 貼於欄位中，按下 _Open_（如下圖）  
 ![](images/1.png)  
 
 若你想要更改成中文版面，可點選畫面左上方的地球按鈕，拉到最下面選取 _正體中文_（如下圖），以下示範會採用英文版面  
@@ -55,7 +55,7 @@ _值_ 為該屬性的值，如：_a_ = _9.8_ 此處 _9.8_ 即為屬性 _a_ 的�
 填妥下面的表單建立一個 workspace，其中要留意的有：
 - Workspace name：此為必填欄位
 - 建議不要選擇 Private，每個人只能建立一個 Private workspace
-- __!!__Clone from Git or Mercurial URL：請填上 _https://github.com/sunset1995/ScratchX-ext.git_
+- __!!__Clone from Git or Mercurial URL__!!__：請填上 _https://github.com/sunset1995/ScratchX-ext.git_
 - Choose a template：請選擇 Node.js  
 ![](images/c9-form.png)  
 
