@@ -55,7 +55,7 @@ _值_ 為該屬性的值，如：_a_ = _9.8_ 此處 _9.8_ 即為屬性 _a_ 的�
 填妥下面的表單建立一個 workspace，其中要留意的有：
 - Workspace name：此為必填欄位
 - 建議不要選擇 Private，每個人只能建立一個 Private workspace
-- __!!__Clone from Git or Mercurial URL__!!__：請填上 _https://github.com/sunset1995/ScratchX-ext.git_
+- __Clone from Git or Mercurial URL__：請填上 _https://github.com/sunset1995/ScratchX-ext.git_
 - Choose a template：請選擇 Node.js  
 ![](images/c9-form.png)  
 
