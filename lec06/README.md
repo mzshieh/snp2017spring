@@ -147,7 +147,13 @@
         +   `pyautogui.hotkey(key1, key2, ..., keys)`
         +   Example: `pyautogui.hotkey('ctrl', 'c')`
 
-+   Try `gui = pyautogui` then `gui.moveTo(1,1)`
++   Is `pyautogui` too long?
+    +   Try `gui = pyautogui` then execute `gui.moveTo(1,1)`
+    +   Try to modify `import pyautogui` to
+        +   `import pyautogui as gui` then execute `gui.moveTo(5,5)`
+        +   `from pyautogui import moveTo` then execute `moveTo(5,5)`
+        +   `from pyautogui import moveTo as m2` then execute `m2(5,5)`
+        +   `from pyautogui import *` then execute `moveTo(5,5)`
 
 ### Task 0
 
