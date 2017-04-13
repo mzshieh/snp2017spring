@@ -24,7 +24,8 @@
 +   The Interactive Shell
     +   Run `python`
     +   Run IDLE
-    +   Has `>>>`
+    +   With `>>>`: input to shell
+    +   Without `>>>`: input to program
 +   How to Find Help
     +   Search engine
     +   Stackoverflow
@@ -58,18 +59,26 @@
     +   `()` > `**` > `*` = `/` = `//` = `%` > `+` = `-`
     +   Special case: Right `**` > Left `**`
 +   (Some) Data types
-    +   Integer
-    +   Floating-point number
-    +   String
+    +   `int` Integer
+    +   `float` [Floating-point number](https://en.wikipedia.org/wiki/IEEE_floating_point)
+        +   Binary
+    +   `str` String
         +   Addition? No, it's concatenation.
         +   Multiplication? No, it's replication.
 +   Storing Values in Variables
-    +   Assignment
-    +   Variable name
-+   The first program
-    +   Comments
-        +   Starting with `#`
-        +   Interpreter will ignore the comments
+    +   `=` Assignment
+        +   Variable is defined by assignment.
+            +   `x = 5`
+    +   [Variable name](https://automatetheboringstuff.com/chapter1/#calibre_link-107)
+    +   `tuple`
+        +   `tpl = (3,5)`
+    +   `list`
+        +   `lst = [1,2,3,4]`
+        +   `lst[1] = 9`
+    +   `dict`
+        +   `dct = {}`
+        +   `dct = {1:2}`
+        +   `dct['name'] = 'MZ'`
 +   (Some) Functions
     +   A sequence of instructions
         +   A mini-program in a program
@@ -79,25 +88,32 @@
     +   `input()`
         +   Read a string from the interactive shell.
     +   `len()`
-        +   Calculate the length of a `string`
+        +   Calculate the length of a `str` / `list` / `tuple` / `dict`
     +   `str()`
-        +   Convert things into `string`
+        +   Convert things into `str`
     +   `int()`
         +   Convert things into `int`
     +   `float()`
         +   Convert things into `float`
     +   `eval()`
         +   Try `eval(input())`
++   The first program
+    +   Lines of codes
+    +   Comments
+        +   Starting with `#`
+        +   Interpreter will ignore the comments
+    +   Console versus shell
 
 ### `pyautogui`
 
 +   The computers mainly receive inputs from human via the mouse and the keyboard.
     +   If your program controls the mouse and the keyboard, then it can do a lot of things (just like the human beings).
 
-+   Installation
-    +   `pip install pyautogui`
-        +   You might have trouble to install this package on your own computer.
-        +   Report the problem to the teaching assistants if you cannot handle it.
++   [Installation](https://github.com/mzshieh/snp2017spring/blob/master/install.md)
+    +   You might have trouble to install this package on your own computer.
+    +   Report the problem to the teaching assistants if you cannot handle it.
+
++   `import pyautogui`
 
 +   Mouse
     +   Get the size of the screen
@@ -157,4 +173,4 @@
 
 ### Task 3
 
-+   Do whatever you want via using `pyautogui`
++   Play [T-Rex Runner](http://www.trex-game.skipser.com/)

@@ -1,12 +1,12 @@
 # Windows 7/8/10
 
-請到: https://www.python.org/downloads/release/python-352/
+請到: https://www.python.org/downloads/release/python-361/
 
 移到最下面 選擇 Windows x86-64 executable installer 或者 Windows x86 executable installer 下載。
 
 雙擊下載回來的檔案。
 
-務必勾選 Add Ptyhon 3.5 to PATH。
+務必勾選 Add Ptyhon 3.6 to PATH。
 
 安裝完成後，按下 <kbd> Win + R </kbd> 鍵入 `cmd` 按下 <kbd> Enter </kbd> 會出現俗稱的黑盒子。
 
@@ -76,4 +76,5 @@ pip install imapclient
 pip install twilio
 pip install pillow
 pip install pyautogui
+pip install mss
 ```
