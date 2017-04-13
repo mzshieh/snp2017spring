@@ -149,6 +149,25 @@
 
 +   Try `gui = pyautogui` then `gui.moveTo(1,1)`
 
+### Task 0
+
++   Goal: Open Microsoft Paint and maximize it
++   Using mouse (with your eyes?)
+    +   Click start
+    +   Find the application and click it
+    +   Wait until Microsoft Paint is opened (Important)
+    +   Click the maximize button
++   Using keyboard (without your eyes?)
+    +   Press windows key (Click start?)
+    +   Type `mspaint` (Find the application?)
+    +   Press enter (Click it?)
+    +   Wait until Microsoft Paint is opened
+    +   Hold windows key, then press up (Maximize)
++   Sample code?
+    +   Download [it](lec06-1.py) after the demo.
++   If the task is not a provided function, then you have to program.
++   Decompose the task into instructions supported by the system environment.
+
 ### Task 1
 
 +   Draw a triangle
