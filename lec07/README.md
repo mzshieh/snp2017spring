@@ -152,4 +152,5 @@
     +   `locateOnScreen` is very slow
     +   Hard to recognize objects
     +   [`trexutil`](trexutil.py)
-        +   Use `(83, 83, 83) in screenshot(region=(x, y, w, h))` to detect
+        +   Use `(83, 83, 83) in screenshot(region=(x, y, w, h)).im` to detect
+        +   Use `screenshot(region=(x, y, w, h)).save('test.png')` to save screenshoted image to `test.png`
