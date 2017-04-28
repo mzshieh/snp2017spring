@@ -131,7 +131,7 @@
 +   Define a function
     +   `def` block
 +   `screenshot()`
-+   `pixel()`
++   `pixel`
     +   `(R,G,B)`
 +   How to take a screen shot
     +   Windows: print screen key
