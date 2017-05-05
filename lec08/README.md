@@ -47,7 +47,7 @@
 
 ### Task 4
 
-+   Write a program to ensure the user input an even number which is not 4.
++   Write a program to ensure the user inputs an even number which is not 4.
 +   Hint: Use `try`-`except`
 +   Hint: Use `int()`, `%` (modulo), `//` (integer division)
 
