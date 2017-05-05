@@ -1,6 +1,4 @@
-# 讀入一個整數，介於0~6之間
-# 讀入 0~6 代表週日、週一、...、週六
-# try-except-else 版本
+# 讀入一個四位整數，可以0開頭，但位數不可重複使用相同數字
 
 while True:
     num = input('Enter a 4-digit number: ')
@@ -24,4 +22,3 @@ while True:
         print('It is invalid')
     print('It is valid.')
     break
-        
