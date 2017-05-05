@@ -8,7 +8,12 @@ while loc == None:
     print('trex','not found')
     time.sleep(0.1)
     loc = pyautogui.locateOnScreen('trex.png')
-### 找到後按一下空白 開始遊戲
+
+### 找到後點恐龍
+center = pyautogui.center(loc)
+pyautogui.click(center)
+time.sleep(0.5)
+### 按一下空白 開始遊戲 
 pyautogui.press('space')
 
 ### 看到障礙物 就按空白
