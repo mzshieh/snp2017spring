@@ -22,5 +22,6 @@ while True:
         continue
     if num < 123 or num > 9876:
         print('It is invalid')
+    print('It is valid.')
     break
         
