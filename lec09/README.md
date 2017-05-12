@@ -65,14 +65,16 @@
     +   [`map`](https://docs.python.org/3/library/functions.html#map)
         +   `lambda x: int(10*x**0.5)`
     +   [`sum`](https://docs.python.org/3/library/functions.html#sum)
+        +   `str`: use `.join()`
     +   [`filter`](https://docs.python.org/3/library/functions.html#filter)
         +   `lambda x: x % 2 == 0`
-    +   [`all`](https://docs.python.org/3/library/functions.html#all)
-    +   [`any`](https://docs.python.org/3/library/functions.html#any)
 +   List comprehension
     +   `[int(10*x**0.5) for x in range(0,100,5) if x % 2 == 0]`
+    +   [`all`](https://docs.python.org/3/library/functions.html#all)
+    +   [`any`](https://docs.python.org/3/library/functions.html#any)
 +   More tools
     +   [`itertools`](https://docs.python.org/3/library/itertools.html)
+    +   [`functools`](https://docs.python.org/3/library/functools.html)
 
 ### Random
 
