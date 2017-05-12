@@ -86,6 +86,9 @@
 ### Game: Guess a secret number
 
 +   Guess a secret number from `0` to `9`
+    +   Sample code
 +   Guess a secret number from `0` to `9` with hints
+    +   Sample code
 +   [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)
+    +   Sample code
 +   Task: write a program to helps you play Bulls and Cows
