@@ -88,9 +88,9 @@
 ### Game: Guess a secret number
 
 +   Guess a secret number from `0` to `9`
-    +   Sample code
+    +   [Sample code](lec09-1.py)
 +   Guess a secret number from `0` to `9` with hints
-    +   Sample code
+    +   [Sample code](lec09-2.py)
 +   [Bulls and Cows](https://en.wikipedia.org/wiki/Bulls_and_Cows)
-    +   Sample code
+    +   [Sample code](lec09-3.py)
 +   Task: write a program to helps you play Bulls and Cows
