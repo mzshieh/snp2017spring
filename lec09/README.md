@@ -59,7 +59,7 @@
 +   Iterator: an access to a certain item and the iterator to its next item
     +   `it = iter(iterables)`
     +   `next(it)`
-+   Some useful tools  
++   Some useful tools
     +   [`zip`](https://docs.python.org/3/library/functions.html#zip)
     +   [`enumerate`](https://docs.python.org/3/library/functions.html#enumerate)
     +   [`map`](https://docs.python.org/3/library/functions.html#map)
@@ -74,7 +74,11 @@
     +   [`any`](https://docs.python.org/3/library/functions.html#any)
 +   More tools
     +   [`itertools`](https://docs.python.org/3/library/itertools.html)
+        +   `import itertools`
+            +   `itertools.combinations`
     +   [`functools`](https://docs.python.org/3/library/functools.html)
+        +   `import functools`
+            +   `functools.reduce`
 
 ### Random
 

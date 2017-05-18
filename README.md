@@ -1,7 +1,7 @@
 # NCTU Scratch and Python, 2017 Spring
 
 +   Instructor: [Min-Zheng Shieh](mailto:mzshieh@nctu.edu.tw) mzshieh@nctu.edu.tw
-+   Teaching Assistants: [Mr. Cheng Sun](mailto:s2821d3721@gmail.com), TBD
++   Teaching Assistants: [Mr. Cheng Sun](mailto:s2821d3721@gmail.com)
 
 ## Course Objectives
 
@@ -26,6 +26,7 @@
     +   [Upload to Google Drive](https://drive.google.com/drive/folders/0B4gASQ5Zzk3ASGItYkpNR0ZkOUE?usp=sharing)
 +   Python Game Agent: [Lonely T-Rex](http://www.trex-game.skipser.com/)
 +   Python Game Agent: [Ball Fight 3.0](https://github.com/sunset1995/ballfight.git) Currently beta
+    +   [Arena](http://ballfight.nctu.me/)
 
 ## Grading Policy
 
