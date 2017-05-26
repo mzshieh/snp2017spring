@@ -134,7 +134,13 @@
 ### String processing
 
 +   Escape Characters: [Table](https://automatetheboringstuff.com/chapter6/#calibre_link-40)
-+   Multiline Strings: triple quotes ```   
++   Multiline Strings: triple quotes `'''`
++   Integers, characters and strings
+    +   `chr`
+        +   try `chr(65)`
+    +   `ord`
+        +   try `ord('A')`
+    +   Python uses `str`'s of length 1 to represent characters.
 +   Indexing:
     +   `print('123'[0])`
     +   `print('123'[-1])`
@@ -159,3 +165,8 @@
 +   `strip()`, `rstrip()`, `lstrip()`
 +   Task: open all URLs which end with `html` in a wikipedia page.
     +   `import webbrowser` then use `webbrowser.open(URL)` to open the page
++   Task: Download an image from a webpage.
+    +   Hint: reuse [previous sample code](lec10-2.py)
+    +   Hint: find `<img` in `result.text`. You should discover there is a URL appened to a `src=` nearby.
+    +   Bonus: Download random 3 images from a webpage
+    +   Bonus: Download all identifiable images from a webpage
